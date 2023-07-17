@@ -1,8 +1,8 @@
 <div>
   <%= form_with model: @plan, url: calendars_path, class: 'form' do |f| %>
   <%= form_date = {
-  日付を選択:{'date',class:'date-select'},
-  予定を入力:{'plan',class:'text-input'}
+  '日付を選択':{'date',class:'date-select'},
+  '予定を入力':{'plan',class:'text-input'}
    } %>
    
     <%= f.submit '保存' %>
